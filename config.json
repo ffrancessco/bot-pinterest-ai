@@ -3,16 +3,17 @@
     "keywordFile": "keywords.txt"
   },
   "pinterest": {
-    "boardUrl": "https://id.pinterest.com/arenatopup/update/"
+    "boardUrl": "https://id.pinterest.com/projectadsterra/update/"
   },
   "gemini": {
+    "aiModel": "gemini-2.5-flash",
     "prompt": "Buat judul dan deskripsi singkat yang menarik untuk pin Pinterest. Gambar ini tentang: {keyword}. Fokus pada inspirasi dan ide. Sertakan 3-4 hashtag relevan. Formatnya harus: Judul: [Judul Anda] Deskripsi: [Deskripsi Anda]",
-    "tagsPrompt": "Berdasarkan judul pin ini: \"{pinTitle}\", berikan 5 kata kunci pencarian paling relevan (masing-masing satu kata, tanpa hashtag, pisahkan dengan koma) untuk mencari interest tags di Pinterest. Contoh: dekorasi,kamar,tidur,inspirasi,rumah",
+    "tagsPrompt": "Berdasarkan judul pin ini: \"{pinTitle}\", berikan 5 set huruf pancingan (masing-masing 3-5 huruf, tanpa hashtag, pisahkan dengan koma) untuk memancing saran interest tags di Pinterest. Contoh: dekor,kama,inspir,ruma,ide",
     "fallbackTitle": "Inspirasi Keren untuk Anda",
     "fallbackDescription": "Temukan lebih banyak ide seperti ini di board kami! #inspirasi #idekreatif"
   },
   "settings": {
-    "destinationLink": "https://arenatopup.com"
+    "destinationLink": "https://website-atau-blog-anda.com"
   },
   "tags": {
     "count": 3
